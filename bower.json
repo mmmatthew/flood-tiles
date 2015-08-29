@@ -3,6 +3,7 @@
   "private": true,
   "dependencies": {
     "bootstrap-sass": "~3.3.5",
+    "leaflet": "~0.7.3",
     "modernizr": "~2.8.3"
   },
   "overrides": {
