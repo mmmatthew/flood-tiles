@@ -4,6 +4,40 @@ $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
 @import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
 // endbower
 
+body {
+            margin:0;
+            padding:0;
+}
+html, body, #map {
+    height: 100%;
+}
+#controls {
+    position: absolute;
+    top: 0px;
+    right: 0;
+    width: 400px;
+    z-index:999;
+    background: white;
+    font-family: SANS-SERIF;
+}
+#controls label {
+    float: left;
+    clear: right;
+}
+#controls input {
+    width: 270px;
+    float: right;
+    margin-top:5px;;
+}
+.pad0 {
+    padding:2px 10px;
+}
+.alert {
+    color: red;
+}
+
+/*Old styles
+
 .browsehappy {
   margin: 0.2em 0;
   background: #ccc;
